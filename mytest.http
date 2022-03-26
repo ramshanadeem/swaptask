@@ -1,0 +1,8 @@
+GET http://localhost:3000/gettoken
+
+###
+POST http://localhost:3000/token
+content-type: application/json
+{
+"token":"0x6B175474E89094C44Da98b954EedeAC495271d0F"
+}
